@@ -74,6 +74,8 @@ if (!args[0] || !args[1]) {
   console.error('You need to write the inputFileName and the outputFileName.')
   console.log('parser <inputFileName> <outputFileName>');
   console.log('Drop the inputFile in ../media folder.')
+
+  process.exit();
 }
 
 parse(args[0], args[1]);  // inputFileName, outputFileName
