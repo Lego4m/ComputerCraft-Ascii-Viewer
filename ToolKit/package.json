@@ -1,0 +1,12 @@
+{
+  "name": "toolkit",
+  "version": "1.0.0",
+  "description": "ToolKit for create and view ascii.",
+  "repository": "https://github.com/Lego4m/ComputerCraft-Ascii-Viewer",
+  "author": "Leonardo Aldrighi Maron",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "image-to-ascii": "^3.0.13"
+  }
+}
