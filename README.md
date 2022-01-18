@@ -2,11 +2,11 @@
 
 [![ComputerCraft-Ascii-Viewer](https://i.imgur.com/rdY6Ndi.png)](#)
 
-This project is a toolkit for parse movies/videos to ascii and visualize them in Computer Craft, terminal or in countless places.
+This project is a toolkit for parsing movies/videos to ascii and visualize them in ComputerCraft, terminal or in countless places.
 
 ## Requirements
 
-Basically this project need a loot of requirements to run, then i'll split it into some topics.
+Basically, this project needs a lot of requirements to run, i have split them into some topics.
 
 ### ToolKit - The brain of project
 
@@ -26,7 +26,7 @@ Check this [link](https://github.com/IonicaBizau/image-to-ascii/blob/master/INST
 
 ### Minecraft - The reason of project
 
-First you need to have minecraft ~~obviously~~ and install a modloader like [forge](https://files.minecraftforge.net/net/minecraftforge/forge/) or [fabric](https://fabricmc.net/use/installer/).
+First you need to have minecraft ~~obviously~~ and install a ModLoader, such as [forge](https://files.minecraftforge.net/net/minecraftforge/forge/) or [fabric](https://fabricmc.net/use/installer/).
 
 ---
 
@@ -36,9 +36,9 @@ You need to download the [Fabric API](https://www.curseforge.com/minecraft/mc-mo
 
 ---
 
-#### Computer Craft | CC Tweaked
+#### ComputerCraft | CC Tweaked
 
-It's important to note that CC Tweaked and Computer Craft **are different**. Computer Craft was discontinued in 1.8.9 while CC Tweaked received some updates in this code and supports the newest versions of minecraft.
+It's important to note that CC Tweaked and ComputerCraft **are different**. ComputerCraft was discontinued in 1.8.9 while CC Tweaked received some updates in this code and supports the newest versions of minecraft.
 
 You can download the CC Tweaked to [forge](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked) or [fabric](https://www.curseforge.com/minecraft/mc-mods/cc-restitched).
 
@@ -47,7 +47,7 @@ You can download the CC Tweaked to [forge](https://www.curseforge.com/minecraft/
 
 ## How to use
 
-This topic is separated into the ToolKit and Minecraft for make the things more simple.
+This topic is separated into ToolKit and Minecraft for making things more simpler.
 
 ### ToolKit
 
@@ -67,13 +67,13 @@ To use write `node parser <inputFileName> <outputFileName>`
 
 #### transmitter.js - The broadcaster
 
-This tool broadcast your ascii-video created by the parser.
+This tool broadcasts the ascii-video created by the parser.
 
 To use write `node transmitter <fileToBroadcast>`
 
 * **_fileToBroadcast_** it's a file with the ascii-video. The algorithm will search this file in `ToolKit/converted`.
 
-This tool is interactive and after you inicializate then you can use two commands: `start` & `stop`.
+This is an interactive tool, and after you initialise then you can use two commands: `start` & `stop`.
 
 * **_start_**: start your broadcast.
 * **_stop_**: stop your broadcast.
@@ -84,7 +84,7 @@ This tool is useful to not need minecraft to see ascii-video.
 
 To use write `node viewer <IP>`
 
-* **_IP_** it's IP of the machine that is runing the transmitter. It's important to note that you need to add a prefix and postfix for the websocket to recognize: `ws://<IP>:3333`.
+* **_IP_** is the IP of the machine that is running the transmitter. It's important to note that you need to add a prefix and suffix for the websocket to recognize it: `ws://<IP>:3333`.
 
 ### Minecraft
 
@@ -107,8 +107,8 @@ To put the Lua script into minecraft you need to:
 
 To use this tool, go to your computer and write `viewer <IP> <textScale>`
 
-* **_IP_** it's IP of the machine that is running the transmitter. It's important to note that you need to add a prefix and postfix for the websocket to recognize: `ws://<IP>:3333`.
-* **_textScale_** it's the scale of text displayed on monitor. It's an optional property that can range between 0.5 and 5.
+* **_IP_** is the IP of the machine that is running the transmitter. It's important to note that you need to add a prefix and suffix for the websocket to recognize it: `ws://<IP>:3333`.
+* **_textScale_** is the scale of text displayed on monitor. It's an optional property that can range between 0.5 and 5.
 
 ## Example
 

@@ -10,7 +10,7 @@ const args = process.argv.slice(2);
 if (!args[0]) {
   console.error('You need to write the IP of your computer (transmitter).');
   console.log('viewer <IP>');
-  console.log('The IP need a prefix and postfix: ws://<IP>:3333');
+  console.log('The IP need a prefix and suffix: ws://<IP>:3333');
 
   process.exit();
 }

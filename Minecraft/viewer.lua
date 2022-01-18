@@ -24,7 +24,7 @@ end
 if not (args[1]) then
   print("You need to write the IP of your computer (transmitter).");
   print("viewer <IP> <textScale (optional | 0.5 - 5)>");
-  print("The IP need a prefix and postfix: ws://<IP>:3333");
+  print("The IP need a prefix and suffix: ws://<IP>:3333");
 
   error();
 end
